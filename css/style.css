@@ -281,7 +281,7 @@ pre {
    z-index: 9999;
 }
 #popup img{
-  height: 90vh;
+  height: 100vh;
   width: auto;
   cursor: pointer;
 }

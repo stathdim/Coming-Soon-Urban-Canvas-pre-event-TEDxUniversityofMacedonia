@@ -91,6 +91,13 @@ h6 {
   top: 60%;
   left: 43%;
 }
+@media (max-width: 768px){
+  .header .scroll-button{
+    position: absolute;
+  top: 100%;
+  left: 43%;
+  }
+}
 .header .scroll-button:hover {
   background: #fff;
   color: #6f345b;
@@ -350,6 +357,7 @@ h6 {
 .partners{
   width: 100%;
   text-align: center;
+  padding-top: 4%;
 }
 .mediapartners{
   width: 100%;
