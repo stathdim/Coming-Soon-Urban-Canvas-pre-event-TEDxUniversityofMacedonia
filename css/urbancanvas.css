@@ -51,10 +51,15 @@ h6 {
   position: relative;
   z-index: 1;
 /*  background-image: url(../images/cover.svg);*/
-  background-color: #4e7c82;
+  background-color: #ECECEC;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left, #F1F1F1 0%, #ECECEC 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #F1F1F1 0%, #ECECEC 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #F1F1F1 0%, #ECECEC 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F1F1', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
 }
 .header .master-head img{
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 .header .master-head {
@@ -74,12 +79,19 @@ h6 {
   line-height: 2em;
   color: #FFF;
 }
+
+
 .header .scroll-button {
-  color: #FFF;
+  color: #1C1C1D;
   font-size: 20px;
   padding: 1%;
   display: block;
-  background: #6f345b;
+  background: #F5F5F5;
+  border: 0;
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.65);
+  -moz-box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.65);
+  box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.65);
+
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -88,9 +100,12 @@ h6 {
   -ms-user-select: none;
   user-select: none;
   position: absolute;
-  top: 60%;
-  left: 43%;
+  top: 45%;
+  left: 45%;
 }
+
+
+
 @media (max-width: 768px){
   .header .scroll-button{
     position: absolute;
