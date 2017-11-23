@@ -6,17 +6,17 @@ body {
   height: 100%;
 }
 body {
-  /*background: -webkit-linear-gradient(#4e7c82, #51747d, #556c79, #596475, #5c5c70, #60546c, #644c68, #674463, #6b3c5f, #6f345b) fixed;
-  background: -moz-linear-gradient(#4e7c82, #51747d, #556c79, #596475, #5c5c70, #60546c, #644c68, #674463, #6b3c5f, #6f345b) fixed;
-  background: -ms-linear-gradient(#4e7c82, #51747d, #556c79, #596475, #5c5c70, #60546c, #644c68, #674463, #6b3c5f, #6f345b) fixed;
-  background: -o-linear-gradient(#4e7c82, #51747d, #556c79, #596475, #5c5c70, #60546c, #644c68, #674463, #6b3c5f, #6f345b) fixed;
-  background: linear-gradient(#4e7c82, #51747d, #556c79, #596475, #5c5c70, #60546c, #644c68, #674463, #6b3c5f, #6f345b) fixed;
+  /*background: -webkit-linear-gradient(#4e7c82, #51747d, #556c79, #596475, #5c5c70, #60546c, #644c68, #674463, #6b3c5f, #0572AD) fixed;
+  background: -moz-linear-gradient(#4e7c82, #51747d, #556c79, #596475, #5c5c70, #60546c, #644c68, #674463, #6b3c5f, #0572AD) fixed;
+  background: -ms-linear-gradient(#4e7c82, #51747d, #556c79, #596475, #5c5c70, #60546c, #644c68, #674463, #6b3c5f, #0572AD) fixed;
+  background: -o-linear-gradient(#4e7c82, #51747d, #556c79, #596475, #5c5c70, #60546c, #644c68, #674463, #6b3c5f, #0572AD) fixed;
+  background: linear-gradient(#4e7c82, #51747d, #556c79, #596475, #5c5c70, #60546c, #644c68, #674463, #6b3c5f, #0572AD) fixed;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
-  background-color: #6f345b;
+  background-color: #0572AD;
   min-height: 100%;
   margin: 0px;
   padding: 0px;
@@ -115,11 +115,11 @@ h6 {
 }
 .header .scroll-button:hover {
   background: #fff;
-  color: #6f345b;
+  color: #0572AD;
 }
 .header .scroll-button:active {
   background: #fff;
-  color: #6f345b;
+  color: #0572AD;
 }
 .main-content {
   margin: 0px auto;
@@ -141,7 +141,7 @@ h6 {
   clear: both;
 }
 .footer {
-  background: #6f345b;
+  background: #0572AD;
   position: relative;
   z-index: 1;
 }
@@ -182,7 +182,7 @@ h6 {
   width: 60px;
 }
 .stem-wrapper .stem {
-  background: #437c82;
+  /* background: #437c82; */
   height: 100%;
 }
 .stem-wrapper .stem-background {
