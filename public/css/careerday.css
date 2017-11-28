@@ -69,6 +69,9 @@ ul {padding: 0;}
 .header .master-head img{
   width: 65vw;
   height: auto;
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(200, 200, 200, 0.95);
+  -moz-box-shadow: 3px 3px 5px 3px rgba(200, 200, 200, 0.95);
+  box-shadow: 3px 3px 5px 3px rgba(200, 200, 200, 0.95);
 }
 .header .master-head {
   padding: 0;
@@ -96,8 +99,8 @@ ul {padding: 0;}
   display: block;
   background: #C71F33;
   border: 0;
-  -webkit-box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.65);
-  -moz-box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.65);
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(150,0,0,0.65);
+  -moz-box-shadow: 3px 3px 5px 3px rgba(150,0,0,0.65);
   box-shadow: 3px 3px 5px 3px rgba(150,0,0,0.65);
 
   cursor: pointer;
@@ -121,10 +124,10 @@ ul {padding: 0;}
 }
 .header .scroll-button:hover {
   background: #fff;
-  color: #0572AD;
-  -webkit-box-shadow: 3px 3px 5px 3px rgba(5, 114, 173 ,0.65);
-  -moz-box-shadow: 3px 3px 5px 3px rgba(5, 114, 173 ,0.65);
-  box-shadow: 3px 3px 5px 3px rgba(5, 114, 173 ,0.65);
+  color: rgb(199, 31, 51);
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(199, 31, 51 ,0.65);
+  -moz-box-shadow: 3px 3px 5px 3px rgba(199, 31, 51 ,0.65);
+  box-shadow: 3px 3px 5px 3px rgba(199, 31, 51 ,0.65);
 }
 .header .scroll-button:active {
   background: #fff;
@@ -427,3 +430,28 @@ ul {padding: 0;}
     margin-top: 40px;
   }
 }
+
+.company-container {
+  width: 75vw;
+  margin: 2vh auto;
+  height: 35vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.company-container p {
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+}
+
+.company-container img {
+  height: auto;
+  width: 30%;
+  max-height: 100%;
+}
+
