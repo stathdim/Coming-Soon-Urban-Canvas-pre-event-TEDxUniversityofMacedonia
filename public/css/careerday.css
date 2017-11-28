@@ -434,12 +434,12 @@ ul {padding: 0;}
 .company-container {
   width: 75vw;
   margin: 2vh auto;
-  height: 35vh;
+  min-height: 35vh;
   display: flex;
   flex-direction: row;
-  align-content: center;
+  /* align-content: center; */
   align-items: center;
-  justify-items: center;
+  /* justify-items: center; */
   justify-content: space-between;
 }
 
@@ -455,3 +455,14 @@ ul {padding: 0;}
   max-height: 100%;
 }
 
+@media (max-width: 950px) {
+  .company-container {
+    flex-direction: column;
+    justify-items: center;
+    align-content: space-between;
+    width: 95vw;
+  }
+  .company-container p {
+    display: block;
+  }
+}
