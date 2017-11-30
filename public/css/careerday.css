@@ -113,6 +113,10 @@ ul {padding: 0;}
   top: 102%;
   left: 41%;
   }
+
+  .header .master-head img {
+    max-width: 80vw;
+  }
 }
 .header .scroll-button:hover {
   background: #fff;
@@ -148,6 +152,7 @@ ul {padding: 0;}
   clear: both;
 }
 .footer {
+  margin-top: 4vh;
   background-color: #FFF;
   position: relative;
   z-index: 1;
@@ -441,7 +446,7 @@ ul {padding: 0;}
 
 .company-container {
   width: 75vw;
-  margin: 2vh auto;
+  margin: 4vh auto;
   min-height: 35vh;
   display: flex;
   flex-direction: row;
@@ -472,6 +477,10 @@ ul {padding: 0;}
   margin-left: 8%;
 }
 
+#fluo-container {
+  min-height: auto;
+}
+
 @media (max-width: 950px) {
   .company-container {
     flex-direction: column;
@@ -482,4 +491,7 @@ ul {padding: 0;}
   .company-container p {
     display: block;
   }
+  
 }
+
+
