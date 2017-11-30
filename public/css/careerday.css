@@ -30,7 +30,7 @@ body {
   overflow-y: scroll;
 }
 a {
-  color: #fff;
+  color: #C71F33;
   text-decoration: none;
   font-weight: bold;
 }
@@ -398,6 +398,26 @@ ul {padding: 0;}
   text-align: center;
   padding-top: 4%;
 }
+
+.partners ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.partners ul li {
+  width: 15%;
+  height: auto;
+  margin-left: 1vw;
+  display: flex;
+  align-items: center;
+}
+
+.partners ul li img{
+  width: 100%;
+  height: auto;
+}
+
 .mediapartners{
   width: 100%;
   text-align: center;
@@ -437,10 +457,19 @@ ul {padding: 0;}
   text-align: center;
 }
 
+.company-container a {
+  width: 30%;
+}
+
 .company-container img {
   height: auto;
-  width: 30%;
+  width: 100%;
   max-height: 100%;
+}
+
+.company-container #fluo {
+  width: 12%;
+  margin-left: 8%;
 }
 
 @media (max-width: 950px) {
