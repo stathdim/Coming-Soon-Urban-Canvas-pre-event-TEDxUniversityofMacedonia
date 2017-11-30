@@ -481,6 +481,10 @@ ul {padding: 0;}
   min-height: auto;
 }
 
+.good-bye iframe {
+  margin-top: 2vh;
+}
+
 @media (max-width: 950px) {
   .company-container {
     flex-direction: column;
